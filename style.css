@@ -1,0 +1,16 @@
+.button {
+	color: #cb997e;
+	border-color: #cb997e;
+	background-color: transparent;
+	border-radius: 15px;
+	padding: 8px 15px;
+}
+
+.header {
+	background-color: #ffe8d6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	border-bottom: 2px solid; #000000;
+}
