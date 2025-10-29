@@ -3,17 +3,18 @@
 <head>
 	<title>Recipes</title>
 	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	<meta name="author" content="Jhon Doe">
 </head>
 
-<body>
+<body class="body">
 	<div class="header">
 		<img src="Imatges/logoipsum.png" alt="Personal logo" style="width: 15%"; >
-		<h6>Latest recipes</h6>
-		<h6>Most popular recipes</h6>
-		<h6>Categories</h6>
+		<h6 class="titol_header">Latest recipes</h6>
+		<h6 class="titol_header">Most popular recipes</h6>
+		<h6 class="titol_header">Categories</h6>
 		<img src="Imatges/user_placeholder.png" alt="User image" style="width: 3%;">
 	</div>
 	<div class="featured_recipe">
@@ -23,13 +24,13 @@
 			<h1>Orange Sauce</h1>
 			<button class="button">see recipe</button>
 		</div>
-		<img src="Imatges/placeholder.jpeg" alt="10 Minute Magic Orange Sauce image" class="featured_image">
 	</div>
 	<div class="category">
 		<p>View by category: <strong>Appetizers Beverages Desserts Healthy</strong></p>
 	</div>
 	<div class="title">
 		<h1>Latest recipes</h1>
+	</div>
 	<div>
 		<div class="latest_recipes">
 			<div class="recipe">
@@ -58,34 +59,64 @@
 			<button class="sub_button">Botón</button>
 		</div>
 	</div>
-	<div>
+	<div class="title">
 		<h1>Most popular recipes</h1>
-		<img src="Imatges/placeholder.jpeg" alt="Grandma's Butterscotch PIE image" style="width: 35%;">
-		<h3>Healthy</h3>
-		<h2>Grandma's Butterscotch PIE</h2>
-		<img src="Imatges/placeholder.jpeg" alt="Perfect Avocado Toast For Breakfast image" style="width: 35%;">
-		<h3>Bread / Sweet</h3>
-		<h2>Perfect Avocado Toast For Breakfast</h2>
-		<img src="Imatges/placeholder.jpeg" alt="10 Minute Magic Orange Sauce image" style="width: 35%;">
-		<h3>Healthy</h3>
-		<h2>10 Minute Magic Orange Sauce</h2>
-		<img src="Imatges/placeholder.jpeg" alt="Summer Berry Parfraid image" style="width: 35%;">
-		<h3>Healthy</h3>
-		<h2>Summer Berry Parfraid</h2>
 	</div>
-<hr>
+	<div>
+		<div class="most_popular_recipes">
+			<div class="recipe">
+				<div class="recipe2">
+					<div class="recipe">
+						<img src="Imatges/placeholder.jpeg" alt="Grandma's Butterscotch PIE image" style="width: 100%;">
+						<div class="most_popular_recipes_text">
+							<h3>Healthy</h3>
+							<h2>Grandma's Butterscotch PIE</h2>
+						</div>
+					</div>
+					<div class="recipe">
+						<img src="Imatges/placeholder.jpeg" alt="Perfect Avocado Toast For Breakfast image" style="width: 100%;">
+						<div class="most_popular_recipes_text">
+							<h3>Bread / Sweet</h3>
+							<h2>Perfect Avocado Toast For Breakfast</h2>
+						</div>
+					</div>
+				</div>
+				<div class="recipe2">
+					<div class="recipe">
+						<img src="Imatges/placeholder.jpeg" alt="10 Minute Magic Orange Sauce image" style="width: 100%;">
+						<div class="most_popular_recipes_text">
+							<h3>Healthy</h3>
+							<h2>10 Minute Magic Orange Sauce</h2>
+						</div>
+					</div>
+					<div class="recipe">
+						<img src="Imatges/placeholder.jpeg" alt="Summer Berry Parfraid image" style="width: 100%;">
+						<div class="most_popular_recipes_text">
+							<h3>Healthy</h3>
+							<h2>Summer Berry Parfraid</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="author">
-		<img src="Imatges/user_placeholder.png" alt="Imatge Usuari" style="width: 15%;">
-		<h3>About the Author</h3>
-		<h1>Jhon Doe</h1>
-		<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus iaculus tellus augue, at ultrices lacus efficitur a. Mauris a nibh erat. In sed massa sed erat consectetur conallis vel vitae felis. Vivamus in tempus erat. Cras porta nisi sit amet leo dictum, non suscipit neque tincidunt. Ut et enim ligula.</p>
+		<img src="Imatges/user_placeholder.png" alt="Imatge Usuari" style="width: 25%;">
+		<div class="recipe">
+			<h3>About the Author</h3>
+			<h1>Jhon Doe</h1>
+			<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus iaculus tellus augue, at ultrices lacus efficitur a. Mauris a nibh erat. In sed massa sed erat consectetur conallis vel vitae felis. Vivamus in tempus erat. Cras porta nisi sit amet leo dictum, non suscipit neque tincidunt. Ut et enim ligula.</p>
+		</div>
 	</div>
-<hr>
 	<div class="footer">
-		<img src="Imatges/logoipsum.png" alt="Logo" style="width: 15%;">
-		<h6>Latest recipes</h6>
-		<h6>Most popular recipes</h6>
-		<h6>Categories</h6>
+		<div class="recipe">
+			<img src="Imatges/logoipsum.png" alt="Logo" style="width: 60%;">
+			<div class="footer_text">
+				<h6>Latest recipes</h6>
+				<h6>Most popular recipes</h6>
+				<h6>Categories</h6>
+			</div>
+		</div>
 		<img src="Imatges/facebook.png" alt="Logo" style="width: 3%;">
 		<img src="Imatges/instagram.png" alt="Logo" style="width: 3%;">
 		<img src="Imatges/twitter.png" alt="Logo" style="width: 3%;">

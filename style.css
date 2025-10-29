@@ -1,0 +1,171 @@
+p {
+	font-family: "Arial", sans-serif;
+}
+
+h1 {
+	font-family: "Arial", sans-serif;
+}
+
+h2 {
+	font-family: "Arial", sans-serif;
+}
+
+h3 {
+	font-family: "Arial", sans-serif;
+}
+
+h4 {
+	font-family: "Arial", sans-serif;
+}
+
+h5 {
+	font-family: "Arial", sans-serif;
+}
+
+h6 {
+	font-family: "Arial", sans-serif;
+}
+
+.body {
+	margin: 10px;
+}
+
+.button {
+	color: #cb997e;
+	border-color: #cb997e;
+	background-color: transparent;
+	border-radius: 15px;
+	padding: 8px 15px;
+}
+
+.header {
+	background-color: #ffe8d6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	border-bottom: 2px solid #000000;
+}
+
+.titol_header {
+	font-size: 16px ;
+}
+
+.featured_recipe {
+	background: url("../Imatges/placeholder2.jpeg") no-repeat center / cover;
+	display: flex; 
+	align-items: flex-start; 
+	justify-content: flex-start; 
+	padding: 100px;
+}
+
+.featured_text {
+	display: flex;
+	flex-direction: column; 
+	align-items: flex-start;
+	margin: 100px;
+}
+
+.featured_image {
+	width: 45%;
+}
+
+.category {
+	background-color: #ffffff;
+	border-bottom: 1px solid #000000;
+	padding: 5px;
+}
+
+.title {
+	margin: 30px;
+}
+
+.latest_recipes {
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	margin: 60px; 
+	gap: 50px;
+}
+
+.recipe {
+	display: flex; 
+	flex-direction: column;
+}
+
+.recipe2 {
+	display: flex;
+	justify-content: center;
+	gap: 80px; 
+	margin-bottom: 40px;
+}
+
+.subscription {
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+	background-color: #cb997e;
+	border-radius: 40px;
+	padding: 20px;
+	margin: 50px;
+}
+
+.interaction {
+	display: flex;
+}
+
+.sub_button {
+	background-color: #ffe8d6;
+	border-color: #ffe8d6;
+	border-radius: 15px;
+	padding: 6px 50px;
+}
+
+.email {
+	background-color: #cb997e;
+	border-color: ##d7b39d;
+	border-radius: 15px;
+	padding: 6px 50px;
+}
+
+.most_popular_recipes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.most_popular_recipes_text {
+	background-color: #f4eae5 ;
+}
+
+.author {
+	background-color: #ddbea9;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+	padding: 20px;
+	gap: 200px;
+}
+
+.footer {
+	background-color: #ffe8d6;
+	display: flex; 
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	gap: 50px;
+}
+
+.footer_text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
